@@ -44,7 +44,7 @@ Cadence will display each issue it logs work to. Example:
 
 If there is a problem logging the work, Cadence will show the error detail. It will continue logging subsequent entries in the work log. Example:
 
-    # php bin/cadence.php 
+    # php ~/cadence/bin/cadence.php
     Failed to record time for BOGUS-100
     HTTP Response code of 404
     stdClass Object
