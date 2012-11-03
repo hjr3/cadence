@@ -1,6 +1,8 @@
 # Cadence #
 The _easy_ way to record time in Jira / Tempo.
 
+I used to spend up to 30 minutes logging work to Jira. It was tedious, boring and I would constantly forget. Cadence allows me to log all my work in mere minutes and causes me no stress.
+
 ## Installation ##
 1. ```git clone https://github.com/hradtke/cadence.git```
 1. ```cp cadence/.jira.dist ~/```
