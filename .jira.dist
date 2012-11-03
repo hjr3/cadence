@@ -1,0 +1,4 @@
+host=jira.example.com
+logFile=/Users/user/work.log
+username=myusername
+password=secret
