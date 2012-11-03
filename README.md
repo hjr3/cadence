@@ -23,9 +23,7 @@ Example:
     HR-11 30m performed me an interview
 
 ## Sending the work log to Jira ##
-Cadence will display each issue it logs work to.
-
-Example:
+Cadence will display each issue it logs work to. Example:
 
     # php ~/cadence/bin/cadence.php
     DISC-130
@@ -44,9 +42,7 @@ Example:
     DISC-89
     ATASKS-3
 
-If there is a problem logging the work, Cadence will show the error detail. It will continue logging subsequent entries in the work log.
-
-Example
+If there is a problem logging the work, Cadence will show the error detail. It will continue logging subsequent entries in the work log. Example:
 
     # php bin/cadence.php 
     Failed to record time for BOGUS-100
