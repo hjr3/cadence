@@ -1,4 +1,10 @@
 <?php
+/**
+ * Cadence
+ *
+ * @author Herman J. Radtke III <hermanradtke@gmail.com>
+ * @license New BSD {@link http://www.opensource.org/licenses/bsd-license.php}
+ */
 
 // special awesome Jira date format
 $now = date('Y-m-d\TH:i:s.000O');
