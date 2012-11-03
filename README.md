@@ -1,7 +1,7 @@
 # Cadence #
 The _easy_ way to record time in Jira / Tempo.
 
-## Instatllation ##
+## Installation ##
 1. ```git clone https://github.com/hradtke/cadence.git```
 1. ```cp cadence/.jira.dist ~/```
 1. ```vim ~/.jira``` and fill in the configuration values
