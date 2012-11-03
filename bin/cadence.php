@@ -39,15 +39,6 @@ foreach ($tasks as $task) {
         'comment' => $comment,
     );
 
-    logMyWork($issue, $data);
-}
-
-function logMyWork($issue, $data)
-{
-    global $host;
-    global $username;
-    global $password;
-
     $url = "http://{$host}/rest/api/2/issue/{$issue}/worklog";
     $json = json_encode($data);
     $headers = array(
@@ -73,10 +64,8 @@ function logMyWork($issue, $data)
         echo "Failed to record time for {$issue}", PHP_EOL;
         echo 'HTTP Response code of ' , $httpStatus, PHP_EOL;
         print_r(json_decode($output));
-        return false;
+        continue;
     }
 
     echo $issue, PHP_EOL;
-    
-    return true;
 }
