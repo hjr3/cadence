@@ -6,8 +6,9 @@
  * @license New BSD {@link http://www.opensource.org/licenses/bsd-license.php}
  */
 
+$date = new DateTime();
 // special awesome Jira date format
-$now = date('Y-m-d\TH:i:s.000O');
+$now = $date->format('Y-m-d\TH:i:s.000O');
 
 $iniFile = $_SERVER['HOME'] . '/.jira';
 
