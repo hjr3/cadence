@@ -5,7 +5,7 @@ I used to spend up to 30 minutes logging work to Jira. It was tedious, boring an
 
 ## Installation ##
 1. ```git clone https://github.com/hradtke/cadence.git```
-1. ```cp cadence/.jira.dist ~/```
+1. ```cp cadence/.jira.dist ~/.jira```
 1. ```vim ~/.jira``` and fill in the configuration values
 
 ## Log Format ##
