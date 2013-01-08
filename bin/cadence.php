@@ -38,6 +38,11 @@ foreach ($tasks as $task) {
         continue;
     }
 
+    // hide comments
+    if ($parts[0] === '#') {
+        continue;
+    }
+
     list($issue, $timeSpent, $comment) = $parts;
 
     $data = array(
