@@ -1,7 +1,9 @@
 # Cadence #
 The _easy_ way to record time in Jira / Tempo.
 
-I used to spend up to 30 minutes logging work to Jira. It was tedious, boring and I would constantly forget. Cadence allows me to log all my work in mere minutes and causes me no stress.
+I used to spend up to 30 minutes logging work to Jira. It was tedious, boring 
+and I would constantly forget. Cadence allows me to log all my work in mere 
+minutes and causes me no stress.
 
 ## Installation ##
 1. ```git clone https://github.com/hradtke/cadence.git```
@@ -9,7 +11,9 @@ I used to spend up to 30 minutes logging work to Jira. It was tedious, boring an
 1. ```vim ~/.jira``` and fill in the configuration values
 
 ## Log Format ##
-The log format is very simple so work can quickly be recorded. Each entry in the work log must be on a separate line. Blank lines are permitted.
+The log format is very simple so work can quickly be recorded. Each entry in
+the work log must be on a separate line. Blank lines are allowed. Any line
+beginning with a octothorpe/hash/pound `#` character will be ignored.
 
 Syntax for work log entries:
 
@@ -23,6 +27,7 @@ Example:
     TASK-130 15m scrum
     PROJECT-52 3h worked on the widget
     HR-11 30m performed me an interview
+    # WTF-22 ?? I am ignored!
 
 ## Sending the work log to Jira ##
 Cadence will display each issue it logs work to. Example:
