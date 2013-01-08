@@ -31,15 +31,15 @@ $workLog = file_get_contents($logFile);
 $tasks = explode(PHP_EOL, $workLog);
 
 foreach ($tasks as $task) {
+    // hide comments
+    if ($task && $task[0] === '#') {
+        continue;
+    }
+
     $parts = explode(' ', $task, 3);
 
     // skip empty lines
     if (!$parts[0]) {
-        continue;
-    }
-
-    // hide comments
-    if ($parts[0] === '#') {
         continue;
     }
 
