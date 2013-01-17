@@ -6,7 +6,7 @@ and I would constantly forget. Cadence allows me to log all my work in mere
 minutes and causes me no stress.
 
 ## Installation ##
-1. ```git clone https://github.com/hradtke/cadence.git```
+1. ```git clone https://github.com/hjr3/cadence.git```
 1. ```cp cadence/.jira.dist ~/.jira```
 1. ```vim ~/.jira``` and fill in the configuration values
 
